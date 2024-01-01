@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bracket</title>
+    <link href="css/style.css" rel="stylesheet">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+    <meta name="description" content="A website for documenting the FIFA World Cup Qatar 2022">
+    <meta name="keywords" content="FIFA, World Cup, Soccer">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Homepage</a>
+            <a href="Group-Stage.html">Group Stage</a>
+            <a href="Knockout-Stage.html">Knockout Stage</a>
+        </nav>
+        <h1>FIFA World Cup Qatar 2022&trade;</h1>
+        <img src="images/Fifa-logo.jpg" alt="FIFA World Cup Qatar 2022 logo">
+        <h2>Create your own bracket!</h2>
+        <h3 style="text-decoration: none;">Choose a team from each dropdown, and then press next</h3>
+    </header>
+    <main>
+        <div class="big-columns">
+            <!--GROUP A-->
+            <section class="group-A">
+                <h3>Group A</h3>
+                <div>
+                    <label for="cboA1">1.</label>
+                    <select id="cboA1" name="cboGroupA">
+                        <option id="noselection" value="">Select a team</option>
+                        <option value="Qatar (QAT)">Qatar (QAT)</option>
+                        <option value="Ecuador (ECU)">Ecuador (ECU)</option>
+                        <option value="Senegal (SEN)">Senegal (SEN)</option>
+                        <option value="Netherlands (NED)">Netherlands (NED)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboA2">2.</label>
+                    <select id="cboA2" name="cboGroupA">
+                        <option value="">Select a team</option>
+                        <option value="Qatar (QAT)">Qatar (QAT)</option>
+                        <option value="Ecuador (ECU)">Ecuador (ECU)</option>
+                        <option value="Senegal (SEN)">Senegal (SEN)</option>
+                        <option value="Netherlands (NED)">Netherlands (NED)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboA3">3.</label>
+                    <select id="cboA3" name="cboGroupA">
+                        <option value="">Select a team</option>
+                        <option value="Qatar (QAT)">Qatar (QAT)</option>
+                        <option value="Ecuador (ECU)">Ecuador (ECU)</option>
+                        <option value="Senegal (SEN)">Senegal (SEN)</option>
+                        <option value="Netherlands (NED)">Netherlands (NED)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboA4">4.</label>
+                    <select id="cboA4" name="cboGroupA">
+                        <option value="">Select a team</option>
+                        <option value="Qatar (QAT)">Qatar (QAT)</option>
+                        <option value="Ecuador (ECU)">Ecuador (ECU)</option>
+                        <option value="Senegal (SEN)">Senegal (SEN)</option>
+                        <option value="Netherlands (NED)">Netherlands (NED)</option>
+                    </select>
+                </div>
+            </section>
+
+            <!--GROUP B-->
+
+            <section class="group-B">
+                <h3>Group B</h3>
+                <div>
+                    <label for="cboB1">1.</label>
+                    <select id="cboB1" name="cboGroupB">
+                        <option value="">Select a team</option>
+                        <option value="ENG">England (ENG)</option>
+                        <option value="IRN">IR Iran (IRN)</option>
+                        <option value="USA">United States (USA)</option>
+                        <option value="WAL">Wales (WAL)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboB2">2.</label>
+                    <select id="cboB2" name="cboGroupB">
+                        <option value="">Select a team</option>
+                        <option value="ENG">England (ENG)</option>
+                        <option value="IRN">IR Iran (IRN)</option>
+                        <option value="USA">United States (USA)</option>
+                        <option value="WAL">Wales (WAL)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboB3">3.</label>
+                    <select id="cboB3" name="cboGroupB">
+                        <option value="">Select a team</option>
+                        <option value="ENG">England (ENG)</option>
+                        <option value="IRN">IR Iran (IRN)</option>
+                        <option value="USA">United States (USA)</option>
+                        <option value="WAL">Wales (WAL)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboB4">4.</label>
+                    <select id="cboB4" name="cboGroupB">
+                        <option value="">Select a team</option>
+                        <option value="ENG">England (ENG)</option>
+                        <option value="IRN">IR Iran (IRN)</option>
+                        <option value="USA">United States (USA)</option>
+                        <option value="WAL">Wales (WAL)</option>
+                    </select>
+                </div>
+            </section>
+
+            <!--GROUP C-->
+
+            <section class="group-C">
+                <h3>Group C</h3>
+                <div>
+                    <label for="cboC1">1.</label>
+                    <select id="cboC1" name="cboGroupC">
+                        <option value="">Select a team</option>
+                        <option value="ARG">Argentina (ARG)</option>
+                        <option value="KSA">Saudi Arabia (KSA)</option>
+                        <option value="MEX">Mexico (MEX)</option>
+                        <option value="POL">Poland (POL)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboC2">2.</label>
+                    <select id="cboC2" name="cboGroupC">
+                        <option value="">Select a team</option>
+                        <option value="ARG">Argentina (ARG)</option>
+                        <option value="KSA">Saudi Arabia (KSA)</option>
+                        <option value="MEX">Mexico (MEX)</option>
+                        <option value="POL">Poland (POL)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboC3">3.</label>
+                    <select id="cboC3" name="cboGroupC">
+                        <option value="">Select a team</option>
+                        <option value="ARG">Argentina (ARG)</option>
+                        <option value="KSA">Saudi Arabia (KSA)</option>
+                        <option value="MEX">Mexico (MEX)</option>
+                        <option value="POL">Poland (POL)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboC4">4.</label>
+                    <select id="cboC4" name="cboGroupC">
+                        <option value="">Select a team</option>
+                        <option value="ARG">Argentina (ARG)</option>
+                        <option value="KSA">Saudi Arabia (KSA)</option>
+                        <option value="MEX">Mexico (MEX)</option>
+                        <option value="POL">Poland (POL)</option>
+                    </select>
+                </div>
+            </section>
+
+            <!--GROUP D-->
+
+            <section class="group-D">
+                <h3>Group D</h3>
+                <div>
+                    <label for="cboD1">1.</label>
+                    <select id="cboD1" name="cboGroupD">
+                        <option value="">Select a team</option>
+                        <option value="FRA">France (FRA)</option>
+                        <option value="AUS">Australia (AUS)</option>
+                        <option value="DEN">Denmark (DEN)</option>
+                        <option value="TUN">Tunisia (TUN)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboD2">2.</label>
+                    <select id="cboD2" name="cboGroupD">
+                        <option value="">Select a team</option>
+                        <option value="FRA">France (FRA)</option>
+                        <option value="AUS">Australia (AUS)</option>
+                        <option value="DEN">Denmark (DEN)</option>
+                        <option value="TUN">Tunisia (TUN)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboD3">3.</label>
+                    <select id="cboD3" name="cboGroupD">
+                        <option value="">Select a team</option>
+                        <option value="FRA">France (FRA)</option>
+                        <option value="AUS">Australia (AUS)</option>
+                        <option value="DEN">Denmark (DEN)</option>
+                        <option value="TUN">Tunisia (TUN)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboD4">4.</label>
+                    <select id="cboD4" name="cboGroupD">
+                        <option value="">Select a team</option>
+                        <option value="FRA">France (FRA)</option>
+                        <option value="AUS">Australia (AUS)</option>
+                        <option value="DEN">Denmark (DEN)</option>
+                        <option value="TUN">Tunisia (TUN)</option>
+                    </select>
+                </div>
+            </section>
+
+            <!--GROUP E-->
+
+            <section class="group-E">
+                <h3>Group E</h3>
+                <div>
+                    <label for="cboE1">1.</label>
+                    <select id="cboE1" name="cboGroupE">
+                        <option value="">Select a team</option>
+                        <option value="ESP">Spain (ESP)</option>
+                        <option value="CRC">Costa Rica (CRC)</option>
+                        <option value="GER">Germany (GER)</option>
+                        <option value="JPN">Japan (JPN)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboE2">2.</label>
+                    <select id="cboE3" name="cboGroupE">
+                        <option value="">Select a team</option>
+                        <option value="ESP">Spain (ESP)</option>
+                        <option value="CRC">Costa Rica (CRC)</option>
+                        <option value="GER">Germany (GER)</option>
+                        <option value="JPN">Japan (JPN)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboE3">3.</label>
+                    <select id="cboE3" name="cboGroupE">
+                        <option value="">Select a team</option>
+                        <option value="ESP">Spain (ESP)</option>
+                        <option value="CRC">Costa Rica (CRC)</option>
+                        <option value="GER">Germany (GER)</option>
+                        <option value="JPN">Japan (JPN)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboE4">4.</label>
+                    <select id="cboE4" name="cboGroupE">
+                        <option value="">Select a team</option>
+                        <option value="ESP">Spain (ESP)</option>
+                        <option value="CRC">Costa Rica (CRC)</option>
+                        <option value="GER">Germany (GER)</option>
+                        <option value="JPN">Japan (JPN)</option>
+                    </select>
+                </div>
+            </section>
+
+            <!--GROUP F-->
+
+            <section class="group-F">
+                <h3>Group F</h3>
+                <div>
+                    <label for="cboF1">1.</label>
+                    <select id="cboF1" name="cboGroupF">
+                        <option value="">Select a team</option>
+                        <option value="BEL">Belgium (BEL)</option>
+                        <option value="CAN">Canada (CAN)</option>
+                        <option value="MAR">Morocco (MAR)</option>
+                        <option value="CRO">Croatia (CRO)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboF2">2.</label>
+                    <select id="cboF2" name="cboGroupF">
+                        <option value="">Select a team</option>
+                        <option value="BEL">Belgium (BEL)</option>
+                        <option value="CAN">Canada (CAN)</option>
+                        <option value="MAR">Morocco (MAR)</option>
+                        <option value="CRO">Croatia (CRO)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboF3">3.</label>
+                    <select id="cboF3" name="cboGroupF">
+                        <option value="">Select a team</option>
+                        <option value="BEL">Belgium (BEL)</option>
+                        <option value="CAN">Canada (CAN)</option>
+                        <option value="MAR">Morocco (MAR)</option>
+                        <option value="CRO">Croatia (CRO)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboF4">4.</label>
+                    <select id="cboF4" name="cboGroupF">
+                        <option value="">Select a team</option>
+                        <option value="BEL">Belgium (BEL)</option>
+                        <option value="CAN">Canada (CAN)</option>
+                        <option value="MAR">Morocco (MAR)</option>
+                        <option value="CRO">Croatia (CRO)</option>
+                    </select>
+                </div>
+            </section>
+
+            <!--GROUP G-->
+
+            <section class="group-G">
+                <h3>Group G</h3>
+                <div>
+                    <label for="cboG1">1.</label>
+                    <select id="cboG1" name="cboGroupG">
+                        <option value="">Select a team</option>
+                        <option value="BRA">Brazil (BRA)</option>
+                        <option value="SRB">Serbia (SRB)</option>
+                        <option value="SUI">Switzerland (SUI)</option>
+                        <option value="CMR">Cameroon (CMR)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboG2">2.</label>
+                    <select id="cboG2" name="cboGroupG">
+                        <option value="">Select a team</option>
+                        <option value="BRA">Brazil (BRA)</option>
+                        <option value="SRB">Serbia (SRB)</option>
+                        <option value="SUI">Switzerland (SUI)</option>
+                        <option value="CMR">Cameroon (CMR)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboG3">3.</label>
+                    <select id="cboG3" name="cboGroupG">
+                        <option value="">Select a team</option>
+                        <option value="BRA">Brazil (BRA)</option>
+                        <option value="SRB">Serbia (SRB)</option>
+                        <option value="SUI">Switzerland (SUI)</option>
+                        <option value="CMR">Cameroon (CMR)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboG4">4.</label>
+                    <select id="cboG4" name="cboGroupG">
+                        <option value="">Select a team</option>
+                        <option value="BRA">Brazil (BRA)</option>
+                        <option value="SRB">Serbia (SRB)</option>
+                        <option value="SUI">Switzerland (SUI)</option>
+                        <option value="CMR">Cameroon (CMR)</option>
+                    </select>
+                </div>
+            </section>
+
+            <!--GROUP H-->
+
+            <section class="group-H">
+                <h3>Group H</h3>
+                <div>
+                    <label for="cboH1">1.</label>
+                    <select id="cboH1" name="cboGroupH">
+                        <option value="">Select a team</option>
+                        <option value="POR">Portugal (POR)</option>
+                        <option value="GHA">Ghana (GHA)</option>
+                        <option value="URU">Uruguay (URU)</option>
+                        <option value="KOR">Korea Republic (KOR)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboH2">2.</label>
+                    <select id="cboH2" name="cboGroupH">
+                        <option value="">Select a team</option>
+                        <option value="POR">Portugal (POR)</option>
+                        <option value="GHA">Ghana (GHA)</option>
+                        <option value="URU">Uruguay (URU)</option>
+                        <option value="KOR">Korea Republic (KOR)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboH3">3.</label>
+                    <select id="cboH3" name="cboGroupH">
+                        <option value="">Select a team</option>
+                        <option value="POR">Portugal (POR)</option>
+                        <option value="GHA">Ghana (GHA)</option>
+                        <option value="URU">Uruguay (URU)</option>
+                        <option value="KOR">Korea Republic (KOR)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cboH4">4.</label>
+                    <select id="cboH4" name="cboGroupH">
+                        <option value="">Select a team</option>
+                        <option value="POR">Portugal (POR)</option>
+                        <option value="GHA">Ghana (GHA)</option>
+                        <option value="URU">Uruguay (URU)</option>
+                        <option value="KOR">Korea Republic (KOR)</option>
+                    </select>
+                </div>
+            </section>
+        </div>
+    </main>
+    <input type="button" id="btnNext" value="Next">
+    <script src="scripts/bracket-script.js"></script>
+</body>
+
+</html>
